@@ -7,4 +7,8 @@ def game():
         print(main(number=toast))
 
 if __name__ == '__main__':
-    game()
+    arr = []
+    for i in range(1,11):
+        arr.append(i)
+    print(arr[7::])
+    # game()
