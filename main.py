@@ -1,9 +1,10 @@
-def main():
-    return None
+def main(number):
+    return "Вы выйграли" if number == "5" else "Вы проиграли"
 
-def sort(args):
-    return args
+def game():
+    while True:
+        toast = input("Введите число от 1 до 10: ")
+        print(main(number=toast))
 
 if __name__ == '__main__':
-    result = sort(args=main())
-    print(result)
+    game()
