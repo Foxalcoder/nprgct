@@ -1,5 +1,9 @@
 def main():
-    return "Hello, World"
+    return None
+
+def sort(args):
+    return args
 
 if __name__ == '__main__':
-    print(main())
+    result = sort(args=main())
+    print(result)
